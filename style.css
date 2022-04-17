@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Updock&display=swap');
+body {
+    background-color: rgb(244, 194, 109);
+}
+
+.header {
+    display: flex;
+}
+
+
+#image {
+    max-width: 70%;
+        
+}
+
+#img-caption {
+    margin-left: 150px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#title{
+    /* text-align: center; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+.description {
+    
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    /* text-align: center; */
+    margin-right: 70px;
+    width: 600px;
+} 
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    font-family: 'Anek Telugu', sans-serif;
+    /* font-family: 'Updock', cursive; */
+}
+
+.list {
+    display: inline-block;
+    margin-left: 25%;
+}
+
+
+.end {
+    margin-left: 40px;
+    font-size: x-large;
+}
+
+a {
+    color: black;
+}
+
+a:hover,a:active {
+    color: rgb(139, 65, 0);
+    text-decoration: none;
+}
